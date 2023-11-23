@@ -1,0 +1,51 @@
+body{
+ 
+    margin: 0px;
+    padding: 0px;
+}
+
+.home{
+    width: 100%;
+    height: 100vh;
+}
+.navbar{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    color: #7D828F;
+    font-size: 700;
+    font-style: normal;
+    width: 100%;
+    height: 25px;
+    position:sticky;
+    top:25px;
+    box-sizing: border-box;
+}
+
+nav svg{
+    margin-left: 96px;
+}
+
+.caja{
+    width: 1110px;
+    height: 720px;
+   
+}
+
+.cajatexto1{
+   
+
+}
+
+.carrusel {
+    z-index:1 ;
+   
+}
+
+.imgcarrusel{
+z-index: 2;
+position: absolute;
+}
