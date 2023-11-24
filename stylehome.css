@@ -2,6 +2,7 @@ body{
  
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
 .home{
@@ -23,29 +24,103 @@ body{
     position:sticky;
     top:25px;
     box-sizing: border-box;
-}
+    z-index: 1;
+    
+   
+    }
 
 nav svg{
     margin-left: 96px;
-}
+  
+    }
 
-.caja{
-    width: 1110px;
-    height: 720px;
-   
-}
+.caja1{
+    display: grid;
+    place-items:center;
+    margin:10%;
+    color:white;
+    }
 
 .cajatexto1{
-   
+    z-index: 3;   
+    position: absolute;
+    margin-left: 200px;
+    padding-right: 350px;
+    font-size: 18px;
+    text-align: left;
+    font-weight: 500;
+    line-height: 24px;  
+    text-align: left;
+    }
 
+    .cajatexto1 h1{
+        font-size: 96px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        line-height: 80px; 
+        letter-spacing: -2px;
+    }
+
+
+    .btnPortfolio1{
+        background-color: black;
+        color: white;
+        width: 192px;
+        height: 56px;
+        flex-shrink: 0;
+        display: flex;
+        align-items: center;
+       justify-content: center;
+        gap:10px;
+
+    }
+
+
+    .contenedorcarrusel{
+     position: relative;
+     overflow: hidden;
+     width: 1110px;
+     height: 720px;
+     z-index: 2;
+     
+
+    }
+
+.btnscarrusel{
+    color:#7D828F;
+    z-index: 3; 
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    
+} 
+
+.btncarrusel{
+background-color: white;
+padding: 0px;
+margin: 0px;
+width: 56px;
+height: 56px;
+border:0px
 }
 
-.carrusel {
-    z-index:1 ;
-   
+.btncarrusel:hover{
+    background-color: #1B1D23;
+    color:white
 }
 
-.imgcarrusel{
-z-index: 2;
-position: absolute;
-}
+
+
+
+
+
+
+
+
+
